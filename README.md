@@ -47,6 +47,11 @@ Recommended
 * 1024mb Graphics Card Memory
 * Enable Virtualization support for VM (Required for Docker)
 
+Known Issues
+-----------
+Using Oracle Virtualbox as the virtualisation software running from a Windows 10 physical host, will cause issues with the Docker install. There is currently no workaround other than using VMware Player or VMware Workstation.
+
+
 Instructions
 -----------
 
@@ -98,7 +103,7 @@ Installed Tools
 - Splunk 
 - Microsoft MSTIC Jupyter and Python Security Tools 
 - MITRE ATT&CK Navigator
-- Coretex Analyzer
+- Cortex Analyzer
 - Greynoise API and GNQL 
 - threatcrowd API
 - threatcmd
